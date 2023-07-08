@@ -1,0 +1,10 @@
+<svg id="Habitaciones" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_402" data-name="Rectángulo 402" width="34" height="34" rx="3" transform="translate(1023 470)" fill="#414141"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_65" data-name="Enmascarar grupo 65" transform="translate(-1023 -470)" clip-path="url(#clip-path)">
+    <path id="FontAwsome_bed_" data-name="FontAwsome (bed)" d="M6.542,71.137a2.974,2.974,0,1,0-2.974-2.974A2.977,2.977,0,0,0,6.542,71.137Zm13.084-4.758H11.3a.6.6,0,0,0-.595.595v5.353H2.379V64.595A.6.6,0,0,0,1.784,64H.595A.6.6,0,0,0,0,64.595V77.679a.6.6,0,0,0,.595.595H1.784a.6.6,0,0,0,.595-.595V75.895H21.411v1.784a.6.6,0,0,0,.595.595H23.2a.6.6,0,0,0,.595-.595V70.542A4.163,4.163,0,0,0,19.627,66.379Z" transform="translate(1028.105 415.863)" fill="#9d9d9d"/>
+  </g>
+</svg>

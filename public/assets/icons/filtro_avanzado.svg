@@ -1,0 +1,29 @@
+<svg id="filtro_avanzado" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_399" data-name="Rectángulo 399" width="34" height="34" rx="3" transform="translate(1023 470)" fill="#414141"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_63" data-name="Enmascarar grupo 63" transform="translate(-1023 -470)" clip-path="url(#clip-path)">
+    <g id="Grupo_258" data-name="Grupo 258" transform="translate(-4 -1)">
+      <line id="Línea_1" data-name="Línea 1" x2="6" transform="translate(1028.5 479.5)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <line id="Línea_5" data-name="Línea 5" x2="6" transform="translate(1028.5 497.5)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <line id="Línea_7" data-name="Línea 7" x2="6" transform="translate(1059.5 487.5) rotate(180)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <line id="Línea_4" data-name="Línea 4" x2="21" transform="translate(1038.5 479.5)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <line id="Línea_6" data-name="Línea 6" x2="21" transform="translate(1038.5 497.5)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <line id="Línea_8" data-name="Línea 8" x2="21" transform="translate(1049.5 487.5) rotate(180)" fill="none" stroke="#d4702a" stroke-width="2"/>
+      <g id="Rectángulo_30" data-name="Rectángulo 30" transform="translate(1034 474)" fill="none" stroke="#d4702a" stroke-width="2">
+        <rect width="6" height="10" rx="3" stroke="none"/>
+        <rect x="1" y="1" width="4" height="8" rx="2" fill="none"/>
+      </g>
+      <g id="Rectángulo_31" data-name="Rectángulo 31" transform="translate(1034 492)" fill="none" stroke="#d4702a" stroke-width="2">
+        <rect width="6" height="10" rx="3" stroke="none"/>
+        <rect x="1" y="1" width="4" height="8" rx="2" fill="none"/>
+      </g>
+      <g id="Rectángulo_32" data-name="Rectángulo 32" transform="translate(1054 493) rotate(180)" fill="none" stroke="#d4702a" stroke-width="2">
+        <rect width="6" height="10" rx="3" stroke="none"/>
+        <rect x="1" y="1" width="4" height="8" rx="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Área" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_401" data-name="Rectángulo 401" width="34" height="34" rx="3" transform="translate(1023 470)" fill="#414141"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_64" data-name="Enmascarar grupo 64" transform="translate(-1023 -470)" clip-path="url(#clip-path)">
+    <path id="FontAwsome_ruler-combined_" data-name="FontAwsome (ruler-combined)" d="M4.461,8.029H2.9a.223.223,0,0,1-.223-.223V7.36A.223.223,0,0,1,2.9,7.137H4.461V5.353H2.9a.223.223,0,0,1-.223-.223V4.684A.223.223,0,0,1,2.9,4.461H4.461V2.676H2.9a.223.223,0,0,1-.223-.223V2.007A.223.223,0,0,1,2.9,1.784H4.461V.892A.892.892,0,0,0,3.568,0H.892A.892.892,0,0,0,0,.892v12.49a.858.858,0,0,0,.044.217L4.461,9.183Zm8.921,1.784H12.49v1.561a.223.223,0,0,1-.223.223h-.446a.223.223,0,0,1-.223-.223V9.813H9.813v1.561a.223.223,0,0,1-.223.223H9.144a.223.223,0,0,1-.223-.223V9.813H7.137v1.561a.223.223,0,0,1-.223.223H6.468a.223.223,0,0,1-.223-.223V9.813H5.091L.675,14.23a.861.861,0,0,0,.217.044h12.49a.892.892,0,0,0,.892-.892V10.705A.892.892,0,0,0,13.382,9.813Z" transform="translate(1032.863 479.863)" fill="#9d9d9d"/>
+  </g>
+</svg>

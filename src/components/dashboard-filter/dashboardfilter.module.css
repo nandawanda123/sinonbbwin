@@ -1,0 +1,159 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.dashboard div.info {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+  padding: 0 !important;
+}
+
+.dashboard div.map {
+  position: relative;
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.dashboard div.map button {
+  box-shadow: 0px 3px 12px #65656545;
+  background: var(--white-color);
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 5px;
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.dashboard div.map button:active {
+  transform: scale(0.98);
+}
+
+.dashboard div.map button span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--inactive-gray-color);
+}
+
+.dashboard div.map button img.toLeft {
+  transform: rotate(90deg);
+  transition: transform 0.8s ease;
+}
+
+.dashboard div.map button img.toRight {
+  transform: rotate(-90deg);
+  transition: transform 0.8s ease;
+}
+
+.nav_mobile,
+.dashboard div.info > div.badget {
+  display: none;
+}
+
+@media only screen and (max-width: 420px) {
+  .dashboard {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .dashboard div.map {
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .dashboard div.info {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    padding: 40px 20px 0 20px !important;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px -13px 20px -5px rgba(0, 0, 0, 0.1);
+  }
+
+  .dashboard div.map button {
+    display: none;
+  }
+
+  .nav_mobile {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background: white;
+    z-index: 100;
+    width: 100vw;
+  }
+
+  .nav_mobile button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+  }
+
+  .nav_mobile button:active {
+    transform: scale(0.98);
+  }
+
+  .nav_mobile button:nth-child(1) {
+    border: none;
+    outline: none;
+    background: white;
+  }
+
+  .nav_mobile button:nth-child(2) {
+    border: none;
+    outline: none;
+    background: white;
+    box-shadow: 0px 3px 12px #65656545;
+    border-radius: 6px;
+    padding: 5px 10px;
+  }
+
+  .nav_mobile button span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--inactive-gray-color);
+  }
+
+  .nav_mobile button img.toUp {
+    transform: rotate(0deg);
+    transition: transform 0.8s ease;
+  }
+
+  .nav_mobile button img.toBottom {
+    transform: rotate(180deg);
+    transition: transform 0.8s ease;
+  }
+
+  .nav_mobile label img {
+    border: none;
+    outline: none;
+    background: white;
+  }
+
+  .dashboard div.info > div.badget {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 74px;
+    border-radius: 5px;
+    background: var(--gray-color);
+    top: 30px;
+    left: calc(50% - 40px);
+  }
+}

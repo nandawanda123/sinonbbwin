@@ -1,0 +1,47 @@
+.list_filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 200px;
+  column-gap: 10px;
+}
+
+.btn_filters {
+  width: 100%;
+  display: grid;
+  align-items: flex-end;
+}
+
+.btn_filters button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: none;
+  outline: none;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: var(--white-color);
+  box-shadow: 0px 3px 12px #65656545;
+  border-radius: 6px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn_filters button:active {
+  transform: scale(0.98);
+}
+
+.btn_filters button span {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--inactive-gray-color);
+}
+
+.btn_filters button img {
+  height: 34px;
+  width: 34px;
+}
+
+@media only screen and (max-width: 420px) {
+  .list_filters {
+    display: none;
+  }
+}

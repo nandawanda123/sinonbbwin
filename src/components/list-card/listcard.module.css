@@ -1,0 +1,45 @@
+.more_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-light-color);
+}
+
+.more_info h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.more_info label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.more_info label span {
+  color: var(--inactive-gray-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.list_cards {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 0;
+  padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 420px) {
+  .list_cards {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .more_info {
+    border-bottom: none;
+  }
+}

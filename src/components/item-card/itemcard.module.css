@@ -1,0 +1,116 @@
+.item_card {
+  box-shadow: 0px 3px 20px #00000052;
+  display: grid;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  grid-template-rows: 200px auto;
+  margin: 0 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.item_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item_card div .header_card {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 20px 5px 10px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.item_card div .header_card h4 {
+  font-weight: bold;
+  color: var(--gray-color);
+  font-size: 12px;
+}
+
+.item_card div .header_card h4:nth-child(1) {
+  color: var(--orange-color);
+  padding-right: 10px;
+  border-right: 1px solid var(--gray-color);
+}
+
+.info_card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.info_card h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.info_card p {
+  font-weight: 300;
+  color: var(--inactive-gray-color);
+  font-size: 10px;
+}
+
+.services_card {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  border-bottom: 1px solid var(--gray-light-color);
+}
+
+.services_card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 5px 0;
+  width: 100%;
+  border-right: 1px solid var(--gray-light-color);
+}
+
+.services_card div p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.services_card div img {
+  height: 34px;
+  width: 34px;
+}
+
+.prices_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.prices_card div.total {
+  display: flex;
+  flex-direction: column;
+}
+
+.prices_card div.total p {
+  font-size: 10px;
+  color: var(--inactive-gray-color);
+  font-weight: 500;
+}
+
+.prices_card div.total span {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+.prices_card a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--orange-color);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.prices_card a img {
+  transform: rotate(-90deg);
+}
